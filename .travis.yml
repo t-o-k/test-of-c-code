@@ -2,8 +2,7 @@ language: c
 
 
 install:
-- cd ${TRAVIS_BUILD_DIR}
-- apt-get install -y lcov
+- sudo apt-get install -y lcov
 - gem install coveralls-lcov
 
 
